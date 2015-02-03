@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-02-03 07:25:34
+  profile: MyString
+  price: 9.99
+  assesedPeople: MyString
+
+two:
+  date: 2015-02-03 07:25:34
+  profile: MyString
+  price: 9.99
+  assesedPeople: MyString
