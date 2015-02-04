@@ -7,14 +7,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <%= link_to "INDECAN Mx", root_path %>   
-  <%= link_to "Nosotros", welcome_nosotros_path %>   
-  <%= link_to "Candidatos Independientes", welcome_candidatos_path %>   
-  <%= link_to "Calendario de Actividades", welcome_calendario_path %>   
-  <%= link_to "Iniciar Sesión", welcome_iniciar_path %>   
-  <%= link_to "Crear Perfil", welcome_crear_path %>    
+<div class="container">
+  <ul class="nav nav-tabs">
+  
+    <%= link_to "INDECAN Mx", root_path %>   
+    <%= link_to "Nosotros", welcome_nosotros_path %>   
+    <%= link_to "Candidatos Independientes", welcome_candidatos_path %>   
+    <%= link_to "Calendario de Actividades", welcome_calendario_path %>   
+    <%= link_to "Iniciar Sesión", welcome_iniciar_path %>   
+    <%= link_to "Crear Perfil", welcome_crear_path %>    
+  </ul>
   
 <%= yield %>
+  
+  </div>
 
 </body>
 </html>
