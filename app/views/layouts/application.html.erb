@@ -10,12 +10,12 @@
 <div class="container">
   <ul class="nav nav-tabs">
   
-    <%= link_to "INDECAN Mx", root_path %>   
-    <%= link_to "Nosotros", welcome_nosotros_path %>   
-    <%= link_to "Candidatos Independientes", welcome_candidatos_path %>   
-    <%= link_to "Calendario de Actividades", welcome_calendario_path %>   
-    <%= link_to "Iniciar Sesión", welcome_iniciar_path %>   
-    <%= link_to "Crear Perfil", welcome_crear_path %>    
+    <li> <%= link_to "INDECAN Mx", root_path %> </li>
+    <li><%= link_to "Nosotros", welcome_nosotros_path %>   </li>
+    <li><%= link_to "Candidatos Independientes", welcome_candidatos_path %> </li>  
+    <li><%= link_to "Actividades", welcome_calendario_path %></li>   
+    <li><%= link_to "Iniciar Sesión", welcome_iniciar_path %> </li>  
+    <li><%= link_to "Crear Perfil", welcome_crear_path %>   </li> 
   </ul>
   
 <%= yield %>

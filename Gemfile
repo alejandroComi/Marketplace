@@ -10,7 +10,6 @@ end
   group :development do  
   gem 'sqlite3'
 end
-gem 'bootstrap-sass', '~> 2.3.1.0'
 
     # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
@@ -29,6 +28,8 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
+
+gem 'bootstrap-sass', '~> 3.3.0'
 
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
